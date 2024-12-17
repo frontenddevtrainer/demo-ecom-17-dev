@@ -1,0 +1,48 @@
+# Magento specific
+/app/etc/env.php
+/app/etc/config.php
+
+# Generated files and caches
+/var/*
+!/var/.htaccess
+/generated/*
+/pub/static/*
+/pub/media/*
+/vendor/*
+/node_modules/*
+
+# Logs and reports
+/var/log/*
+/var/report/*
+
+# Environment files
+*.local.xml
+*.swp
+*.swo
+*.idea
+*.DS_Store
+
+# Composer files
+composer.lock
+/autoload.php
+
+# Build tools
+/dev/tools
+/dev/build
+
+# Exclude backups
+*.sql
+*.zip
+*.tar.gz
+*.tgz
+*.bak
+
+# Ignore IDE configs
+/.idea/
+/.vscode/
+/nbproject/
+/.editorconfig
+
+# Other OS-specific files
+Thumbs.db
+.DS_Store
